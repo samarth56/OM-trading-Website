@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./images/logo-transparent-svg.svg" type="image/icon type">
+
+
+    <!-- link to all fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+
+<!-- link to swiper js -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+<!-- link to tailwind -->
+<link rel="stylesheet" href="/Public/style.css">
+    <title>Om Trading Corporation</title>
+  </head>
+  <body class="text-gray-800 scroll-smooth overflow-x-hidden" >
+
+   
+    <!-- Header -->
+    <header class="bg-gray-50 text-white fixed w-full z-20 shadow-md overflow-x-hidden">
+      <div
+        class="container mx-auto flex justify-between items-center px-2 md:px-2 lg:px-10 py-1"
+      >
+        <!-- Logo -->
+      <div class="flex items-center cursor-pointer" >
+        <img class="w-20" src="/images/logo-transparent-svg.svg" alt="Logo"/>
+        <h1 class=" max-sm:hidden lg:text-2xl font-bold text-black  font-[Poppins]">Om Trading Corporation</h1>
+      </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-14 text-black">
+          <a href="/" class="text-base hover:text-blue-600 "
+            >Home</a
+          >
+          <a href="/about.html" class="text-base hover:text-blue-600 "
+            >About</a
+          >
+          <a
+            href="products.html"
+            class="text-base hover:text-blue-600 "
+            >Products</a
+          >
+          <a
+            href="/contact.html"
+            class="text-base hover:text-blue-600 "
+            >Contact</a
+          >
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button
+          id="menu-btn"
+          class="md:hidden text-2xl text-black focus:outline-none"
+        >
+          ☰
+        </button>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <nav id="mobile-menu" class="hidden bg-gray-200 md:hidden">
+        <ul
+          class="mobUl text-lg flex flex-col text-center text-black items-center justify-start   space-y-4 py-8"
+        >
+          <li><a href="/" class="hover:underline">Home</a></li>
+          <li><a href="about.html" class="hover:underline">About</a></li>
+          <li><a href="products.html" class="hover:underline">Products</a></li>
+          <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+<!-- hero section -->
+    <section class="relative w-full h-screen flex items-center justify-center overflow-x-hidden">
+        <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop>
+            <source src="/images/bgvdo.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div id="hero-div" class="relative z-10 text-center">
+            <h1  class="hero-title font-[Montserrat] font-extrabold text-white text-2xl sm:text-5xl md:text-5xl lg:text-6xl mb-6">
+                Empowering Global Trade, Sustaining Agriculture
+            </h1>
+
+            <p class="font-[Roboto] hero-title text-white text-sm sm:text-lg md:text-lg mb-8 mx-2">
+          Om Trading Corporation connects industries with high-quality raw
+          materials, agriculture expertise, and efficient distribution services
+          across borders.
+        </p>
+        <a
+          href="#contact"
+          class= "hero-title bg-blue-900 text-white px-6 py-3 rounded hover:bg-blue-800"
+          >Get in Touch</a
+        >
+        </div>
+    </section>
+    
+
+
+
+
+
+
+    <!-- About Section -->
+   <section id="about-section" class="py-16 bg-white overflow-x-hidden">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8" style="width: 90%;
+  max-width: 1440px;
+  margin: 0 auto; " >
+    <!-- Section Title -->
+    <h2 id="about-heading" class="text-3xl font-bold text-center text-gray-900 mb-8">
+      About Us
+    </h2>
+
+    <!-- Introduction Text -->
+    <div class="flex flex-col justify-center sm:flex-row items-center mb-8" >
+      <p id="about-para" class="text-gray-700 text-lg mb-8 sm:mb-0 sm:w-2/3 sm:pr-8 max-w-2xl ">
+        Om Trading Corporation, founded in 2020, began with a focus on corn
+        farming and quickly expanded into the export of corn mill products.
+        Over time, the company diversified into importing and exporting raw
+        materials, products, and equipment, supporting industries and
+        affiliated joint ventures. As part of our growth strategy, we became
+        distributors for several overseas companies, establishing a strong
+        presence in Malaysia, Nepal, Bhutan, and Bangladesh. This expansion
+        has allowed us to remain competitive and broaden our reach in the
+        global marketplace. Our commitment to excellence and innovation
+        drives us to deliver high-quality solutions, creating long-term
+        value for our clients and partners across industries.
+      </p>
+
+      <div id="about-img" class="sm:w-1/3">
+        <img class="w-full h-auto rounded-lg" src="./images/aboutImg.jpg" alt="Om Trading Corporation" />
+      </div>
+    </div>
+
+    <!-- Cards for Mission, Vision, and Key Business Areas -->
+    <div id="about-cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8   ">
+      <!-- Mission Card -->
+      <div  class="bg-white shadow-lg rounded-lg p-6" style="background: linear-gradient(to top, #96c2db, #e5edf1);">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Our Mission</h3>
+        <p class="text-gray-600 text-lg">
+          Our mission is to foster sustainable global trade and provide
+          innovative solutions that bridge industries with efficient
+          logistics and high-quality resources.
+        </p>
+      </div>
+
+      <!-- Vision Card -->
+      <div class="bg-white shadow-lg rounded-lg p-6" style="background: linear-gradient(to top, #96c2db, #e5edf1);">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Our Vision</h3>
+        <p class="text-gray-600 text-lg">
+          To be the world's leading trading company, empowering businesses
+          with exceptional service, integrity, and innovation. We aim to
+          redefine the future of global trade by continually adapting to new
+          market dynamics and technological advancements.
+        </p>
+      </div>
+
+      <!-- Key Business Areas Card -->
+      <div class="bg-white shadow-lg rounded-lg p-6" style="background: linear-gradient(to top, #96c2db, #e5edf1);">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Key Business Areas</h3>
+        <ul class="list-inside list-disc text-gray-600 text-lg">
+          <li>International Trade Solutions</li>
+          <li>Logistics and Supply Chain Management</li>
+          <li>Market Research and Analysis</li>
+            <!-- <li>Consulting and Advisory Services</li>
+            <li>Business Development and Partnerships</li> -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="text-center mt-8">
+      <a
+        href="#contact"
+        class="bg-blue-900 text-white py-3 px-6 rounded hover:bg-blue-700 transition-all duration-300 ease-in-out shadow-lg transform hover:scale-105"
+      >
+        Get in Touch with Us
+      </a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Product Section -->
+    <section id="product-section" class="py-16 bg-gray-100 overflow-x-hidden">
+      <div
+        class="container mx-auto px-4"
+        style="width: 90%; max-width: 1440px; margin: 0 auto;"
+      >
+        <!-- Section Title -->
+        <h2 id="product-heading" class="text-3xl font-bold text-center text-gray-900 mb-8">
+          Our Products
+        </h2>
+    
+
+      <!-- Swiper Carousel -->
+      <div class="swiper">
+        <!-- Wrapper for slides -->
+        <div class="swiper-wrapper my-10">
+          <!-- Slide 1 -->
+          <div class="swiper-slide bg-white shadow-lg rounded-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-sm">
+            <img class="w-full h-64 object-cover" src="/images/cornMeal.jpg" alt="Product 1">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">Corn Meal</h3>
+              <p class="text-gray-600 mb-4">A finely ground flour made from dried corn, perfect for baking, cooking, and traditional dishes.</p>
+              <a href="products.html" class="text-blue-600 hover:text-blue-800 font-medium">Learn More</a>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide bg-white shadow-lg rounded-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-sm">
+            <img class="w-full h-64 object-cover" src="/images/product1.jpg" alt="Product 2">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">Corn</h3>
+              <p class="text-gray-600 mb-4">Fresh, golden kernels ideal for snacking, cooking, and adding a nutritious touch to your meals.</p>
+              <a href="products.html" class="text-blue-600 hover:text-blue-800 font-medium">Learn More</a>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide bg-white shadow-lg rounded-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-sm">
+            <img class="w-full h-64 object-cover" src="/images/product2.jpg" alt="Product 3">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">Rice</h3>
+              <p class="text-gray-600 mb-4">High-quality, aromatic grains, perfect for a variety of dishes, from everyday meals to special occasions.</p>
+              <a href="products.html" class="text-blue-600 hover:text-blue-800 font-medium">Learn More</a>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="swiper-slide bg-white shadow-lg rounded-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-sm">
+            <img class="w-full h-64 object-cover" src="/images/pulses.jpg" alt="Product 4">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">Pulses</h3>
+              <p class="text-gray-600 mb-4">A rich source of protein, these lentils and legumes are essential for a balanced diet.</p>
+              <a href="products.html" class="text-blue-600 hover:text-blue-800 font-medium">Learn More</a>
+            </div>
+          </div>
+          <!-- Slide 5 -->
+          <div class="swiper-slide bg-white shadow-lg rounded-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-sm">
+            <img class="w-full h-64 object-cover" src="/images/cereal.jpg" alt="Product 5">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">Cereals Grains</h3>
+              <p class="text-gray-600 mb-4">Wholesome grains packed with nutrients, perfect for cereals, bread, and healthy recipes.</p>
+              <a href="products.html" class="text-blue-600 hover:text-blue-800 font-medium">Learn More</a>
+            </div>
+          </div>
+        
+
+         <!-- Slide 6 -->
+         <div class="swiper-slide bg-white shadow-lg rounded-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-sm">
+          <img class="w-full h-64 object-cover" src="/images/spices.jpg" alt="Product 5">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Spices</h3>
+            <p class="text-gray-600 mb-4">A blend of aromatic and flavorful spices to enhance the taste of your dishes.</p>
+            <a href="products.html" class="text-blue-600 hover:text-blue-800 font-medium">Learn More</a>
+          </div>
+        </div>
+      
+
+       <!-- Slide 7 -->
+       <div class="swiper-slide bg-white shadow-lg rounded-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-sm">
+        <img class="w-full h-64 object-cover" src="/images/jewellery.jpg" alt="Product 5">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Imitation Jewellery</h3>
+          <p class="text-gray-600 mb-4">Stylish, trendy, and affordable jewellery pieces to complement any outfit.</p>
+          <a href="products.html" class="text-blue-600 hover:text-blue-800 font-medium">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Slide 8 -->
+      <div class="swiper-slide bg-white shadow-lg rounded-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-sm">
+        <img class="w-full h-64 object-cover" src="/images/cotton.jpg" alt="Product 5">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Cotton</h3>
+          <p class="text-gray-600 mb-4">Soft, high-quality cotton for textiles, garments, and various other uses.</p>
+          <a href="products.html" class="text-blue-600 hover:text-blue-800 font-medium">Learn More</a>
+        </div>
+      </div>
+
+    </div>
+        
+        <!-- Pagination -->
+        <div class="swiper-pagination mt-4"></div>
+        
+        <!-- Navigation Buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+      </div>
+    </div>
+        
+            
+    
+        
+      </div>
+    </section>
+
+
+
+
+<!-- Owner section -->
+<section id="owner" class="py-16 bg-white overflow-x-hidden"   style="background: linear-gradient(to top, #96c2db, #e5edf1);"
+>
+    <div id="owner-container" class="container mx-auto flex flex-col items-center">
+      <!-- Owner Photo -->
+      <div class="mb-6">
+        <img
+          src="./images/m.jpeg"
+          alt="Owner"
+          class="w-40 h-40 rounded-full border-4 border-blue-900"
+        />
+      </div>
+      <!-- Owner Text -->
+      <p class="text-gray-800 text-lg text-center max-w-2xl mb-4 mx-6">
+       
+        <!-- <span class="text-5xl"></span> -->
+        With a vision to redefine global trade and a deep commitment to
+        excellence, our founder has led Om Trading Corporation to become a
+        trusted name in the industry. Their unwavering dedication to
+        innovation, integrity, and customer satisfaction has fueled our growth
+        and success in international markets.
+      </p>
+      <!-- Owner Name -->
+      <h3 class="text-2xl font-semibold text-blue-900">Om Sonar</h3>
+      <p class="text-gray-600 text-base">Founder & CEO</p>
+    </div>
+  </section>
+  
+ 
+
+    
+ <!-- Contact Section -->
+<section id="contact-section" class="py-16 bg-white overflow-x-hidden">
+  <div class="container mx-auto px-4" style="width: 90%; max-width: 1440px; 
+  margin: 0 auto; ">
+    <h2 id="contact-heading" class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Illustration Section -->
+      <div id="contact-section-img" class="flex justify-center">
+        <img 
+          src="/images/Contact us-amico.svg" 
+          alt="Contact Illustration" 
+          class="w-3/4 md:w-full h-auto"
+        />
+      </div>
+
+      <!-- Form Section -->
+      <form
+      id="contactForm"
+      action="https://api.web3forms.com/submit"
+      method="POST"
+      class="bg-gray-50 p-4 sm:p-6 md:p-8 rounded shadow"
+    >
+      <input
+        type="hidden"
+        name="access_key"
+        value="7124ca21-39c5-4989-9ac5-2dc52d292c88"
+      />
+      <div class="mb-4">
+        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <input
+          required
+          type="text"
+          name="name"
+          id="name"
+          class="w-full mt-1 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder="Your Name"
+        />
+        <span class="text-red-500 text-sm hidden" id="nameError">Please enter your name.</span>
+      </div>
+      <div class="mb-4">
+        <label for="company" class="block text-sm font-medium text-gray-700">Company Name</label>
+        <input
+          required
+          type="text"
+          name="company"
+          id="company"
+          class="w-full mt-1 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder="Your Company Name"
+        />
+        <span class="text-red-500 text-sm hidden" id="companyError">Please enter your company name.</span>
+      </div>
+      <div class="mb-4">
+        <label for="country" class="block text-sm font-medium text-gray-700">Country</label>
+        <input
+          required
+          type="text"
+          name="country"
+          id="country"
+          class="w-full mt-1 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder="Your Country"
+        />
+        <span class="text-red-500 text-sm hidden" id="countryError">Please enter your country.</span>
+      </div>
+      <div class="mb-4">
+        <label for="number" class="block text-sm font-medium text-gray-700">Number</label>
+        <input
+          required
+          type="text"
+          name="number"
+          id="number"
+          class="w-full mt-1 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder="Your Number"
+        />
+        <span class="text-red-500 text-sm hidden" id="numberError">Please enter a valid number.</span>
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <input
+          required
+          type="email"
+          name="email"
+          id="email"
+          class="w-full mt-1 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder="Your Email"
+        />
+        <span class="text-red-500 text-sm hidden" id="emailError">Please enter a valid email address.</span>
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+        <textarea
+          required
+          id="message"
+          name="message"
+          rows="4"
+          class="w-full mt-1 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder="Your Message"
+        ></textarea>
+        <span class="text-red-500 text-sm hidden" id="messageError">Please enter a message.</span>
+      </div>
+      <button
+        type="submit"
+        class="w-full bg-blue-900 text-white py-2 rounded hover:bg-blue-800"
+      >
+        Send Message
+      </button>
+    </form> 
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+    <!-- footer  -->
+
+    <section class="bg-gray-800 text-white py-8 overflow-x-hidden">
+        <div class="container mx-auto px-4" style="width: 90%;
+        max-width: 1440px;
+        margin: 0 auto; ">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:place-items-center">
+            
+            <!-- FAQ Column -->
+            <div>
+              <h3 class="text-lg font-semibold mb-4">FAQ</h3>
+              <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div>
+                  <button
+                    class="text-left w-full text-gray-400 hover:text-white focus:outline-none"
+                    onclick="toggleFAQ(1)"
+                  >
+                    What is Om Trading Corporation?
+                  </button>
+                  <p id="faq1" class="text-gray-400 hidden mt-2">
+                    Om Trading Corporation connects industries with high-quality raw materials, agriculture expertise, and efficient distribution services across borders.
+                  </p>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div>
+                  <button
+                    class="text-left w-full text-gray-400 hover:text-white focus:outline-none"
+                    onclick="toggleFAQ(2)"
+                  >
+                    How do I contact customer support?
+                  </button>
+                  <p id="faq2" class="text-gray-400 hidden mt-2">
+                    You can contact customer support through our contact page or by emailing support@omtrading.com.
+                  </p>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div>
+                  <button
+                    class="text-left w-full text-gray-400 hover:text-white focus:outline-none"
+                    onclick="toggleFAQ(3)"
+                  >
+                    What services do you offer?
+                  </button>
+                  <p id="faq3" class="text-gray-400 hidden mt-2">
+                    We offer a range of services, including raw material supply, agriculture consulting, and logistics management.
+                  </p>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div>
+                  <button
+                    class="text-left w-full text-gray-400 hover:text-white focus:outline-none"
+                    onclick="toggleFAQ(4)"
+                  >
+                    How can I become a partner?
+                  </button>
+                  <p id="faq4" class="text-gray-400 hidden mt-2">
+                    You can apply to become a partner by filling out the partnership form on our website.
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Navigation Links Column -->
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Navigation</h3>
+              <ul>
+                <li><a href="/" class="text-gray-400 hover:text-white">Home</a></li>
+                <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                <li><a href="products.html" class="text-gray-400 hover:text-white">Products</a></li>
+                <!-- <li><a href="#services" class="text-gray-400 hover:text-white">Services</a></li> -->
+                <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact Us</a></li>
+              </ul>
+            </div>
+      
+            <!-- Social Media Links Column -->
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+              <div class="flex space-x-4">
+                <a href="https://facebook.com" target="_blank" class="text-gray-400 hover:text-white">
+                  <!-- Facebook Icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 2h4v4h-4zM6 2h4v4H6zM2 6h4v4H2zM18 6h4v4h-4zM6 10h4v4H6zM2 14h4v4H2zM18 14h4v4h-4zM6 18h4v4H6zM2 18h4v4H2z"></path>
+                  </svg>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-gray-400 hover:text-white">
+                  <!-- Twitter Icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M23 3a10.1 10.1 0 01-2.93.8A4.91 4.91 0 0022.4 1.7a9.76 9.76 0 01-3.13 1.2A4.89 4.89 0 0016.3 0c-2.73 0-4.9 2.19-4.9 4.9 0 .38.04.75.12 1.1A13.9 13.9 0 011.6 3.16a4.88 4.88 0 001.52 6.52A4.89 4.89 0 01.97 9v.05c0 2.34 1.67 4.29 3.89 4.73a4.9 4.9 0 01-2.21.08 4.9 4.9 0 004.56 3.39c-2.88 2.26-6.48 3.53-10.39 3.53-.67 0-1.33-.04-2-.12A14 14 0 0011.8 20c9.36 0 14.29-7.75 14.29-14.47 0-.22-.01-.44-.03-.66A10.11 10.11 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="text-gray-400 hover:text-white">
+                  <!-- LinkedIn Icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4.98 3c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 3h.01c1.1 0 2-.9 2-2s-.9-2-2-2H4.98c-1.1 0-2 .9-2 2s.9 2 2 2h.01zm3.91 5h2.16V9H8.89v10H6.73V9.26c0-.61-.5-1.1-1.11-1.1h-.02c-.61 0-1.1.5-1.1 1.1v10h-2.1V9H4V4.1C4 2.99 4.9 2 5.98 2c.72 0 1.34.42 1.66 1.02.1.21.21.43.31.65.35-.59.9-1.01 1.56-1.01 1.25 0 2.29 1.01 2.29 2.3v9.75h-.01zm13.08-6.73c0 1.04-.84 1.88-1.88 1.88H18c-1.04 0-1.88-.84-1.88-1.88s.84-1.88 1.88-1.88h.02c1.03 0 1.87.84 1.87 1.88z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-4 overflow-x-hidden">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Trading Corporation. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- link to swiperjs -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- link to js -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+      <script src="app.js"></script>
+      <script src="animation.js"></script>
+  </body>
+</html>

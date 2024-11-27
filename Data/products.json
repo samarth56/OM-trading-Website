@@ -1,0 +1,248 @@
+ [
+    {
+      "id": 1,
+      "name": "Cornmeal Flour",
+      "category": "Corn Meal",
+      "description": "Cornmeal flour made from finely ground corn, ideal for making cornbread, polenta, or as a thickening agent for sauces.",
+      "image": "/images/p1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Coarse Cornmeal",
+      "category": "Corn Meal",
+      "description": "Coarse cornmeal with a gritty texture, commonly used in making cornbread, corn muffins, and as a crust for frying.",
+      "image": "/images/p2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Yellow Cornmeal",
+      "category": "Corn Meal",
+      "description": "Bright yellow cornmeal, perfect for making traditional Indian and American cornbread, as well as for batters and coatings.",
+      "image": "/images/p3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sweet Corn",
+      "category": "Corn",
+      "description": "Sweet corn, harvested at peak ripeness, perfect for salads, soups, and snacks. It can be consumed fresh or preserved.",
+      "image": "/images/p4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Frozen Corn",
+      "category": "Corn",
+      "description": "Frozen corn kernels, easy to store and use in dishes like curries, soups, or just as a side dish.",
+      "image": "/images/p5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Popcorn",
+      "category": "Corn",
+      "description": "Popcorn kernels that pop into fluffy, crunchy popcorn. A popular snack and can be flavored with different seasonings.",
+      "image": "/images/p6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Basmati Rice",
+      "category": "Rice",
+      "description": "Premium quality Basmati rice with long grains, ideal for biryanis, pilafs, and other aromatic rice dishes.",
+      "image": "/images/p7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Sona Masoori Rice",
+      "category": "Rice",
+      "description": "Sona Masoori rice, a medium-grain rice, commonly used in South Indian cuisine for making dosas, idlis, and daily meals.",
+      "image": "/images/p8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Jasmine Rice",
+      "category": "Rice",
+      "description": "Fragrant jasmine rice with long grains, often used in Thai and South Asian dishes like stir-fries and curries.",
+      "image": "/images/p9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sambar Rice",
+      "category": "Rice",
+      "description": "Specially formulated rice for making sambar rice, often mixed with lentils and spices for a delicious, hearty dish.",
+      "image": "/images/p10pg"
+    },
+    {
+      "id": 11,
+      "name": "Toor Dal",
+      "category": "Pulses",
+      "description": "Toor Dal, also known as pigeon peas, commonly used in Indian curries and dals, rich in protein and essential nutrients.",
+      "image": "/images/p11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Chana Dal",
+      "category": "Pulses",
+      "description": "Chana dal, split chickpeas, are widely used in Indian cooking for making dals, soups, and savory snacks.",
+      "image": "/images/p12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Masoor Dal",
+      "category": "Pulses",
+      "description": "Red lentils that cook quickly and are a key ingredient in Indian dals, soups, and stews. They are mild and easy to digest.",
+      "image": "/images/p13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Moong Dal",
+      "category": "Pulses",
+      "description": "Yellow split moong dal, perfect for making light dals or as a base for soups and stews. Known for its digestibility.",
+      "image": "/images/p14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Black Urad Dal",
+      "category": "Pulses",
+      "description": "Black urad dal, commonly used to prepare Indian dishes like dal makhani and dosa batter, packed with protein and fiber.",
+      "image": "/images/p15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Wheat Flour",
+      "category": "Cereal Grains",
+      "description": "Whole wheat flour, ground from whole wheat grains, commonly used for making flatbreads, rotis, and other baked goods.",
+      "image": "/images/p16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Oats",
+      "category": "Cereal Grains",
+      "description": "Oats, a versatile cereal grain, commonly used for breakfast porridges, baking, and adding texture to dishes.",
+      "image": "/images/p17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Barley",
+      "category": "Cereal Grains",
+      "description": "Barley, an ancient grain, used in soups, stews, salads, and as a healthier substitute for rice or wheat.",
+      "image": "/images/p18.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Millets",
+      "category": "Cereal Grains",
+      "description": "Millets are small, nutritious grains that are gluten-free and can be used in porridge, baked goods, or as a rice substitute.",
+      "image": "/images/p19.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Rice Flour",
+      "category": "Cereal Grains",
+      "description": "Rice flour, made from finely ground rice, is ideal for gluten-free baking, thickening soups, or making batter for frying.",
+      "image": "/images/p20.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Chili Powder",
+      "category": "Spices",
+      "description": "Spicy and pungent chili powder, a blend of ground dried chilies, used in Indian cooking to add heat and color to dishes.",
+      "image": "/images/p21.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Cumin Powder",
+      "category": "Spices",
+      "description": "Ground cumin, known for its earthy and slightly smoky flavor, essential for curries, soups, and spice blends.",
+      "image": "/images/p22.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Coriander Powder",
+      "category": "Spices",
+      "description": "Coriander powder, made from ground coriander seeds, offers a mild, citrusy flavor, widely used in Indian curries.",
+      "image": "/images/coriander-powder.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Mustard Seeds",
+      "category": "Spices",
+      "description": "Mustard seeds, used to temper dals, curries, and other Indian dishes, providing a pungent and aromatic flavor.",
+      "image": "/images/mustard-seeds.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Cloves",
+      "category": "Spices",
+      "description": "Whole cloves, a staple in Indian cooking, used to add warmth and depth to biryanis, curries, and spice blends.",
+      "image": "/images/cloves.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Bay Leaves",
+      "category": "Spices",
+      "description": "Bay leaves, used in Indian dishes like biryani and curries to infuse a subtle herbal aroma and flavor.",
+      "image": "/images/bay-leaves.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Imitation Gold Necklace",
+      "category": "Imitation Jewellery",
+      "description": "Elegant imitation gold necklace, designed to resemble traditional gold jewelry but crafted from affordable materials.",
+      "image": "/images/imitation-gold-necklace.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Silver-Plated Imitation Ring",
+      "category": "Imitation Jewellery",
+      "description": "Beautiful silver-plated imitation ring, designed with intricate patterns, suitable for all occasions.",
+      "image": "/images/silver-plated-imitation-ring.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Crystal-Studded Earrings",
+      "category": "Imitation Jewellery",
+      "description": "Stylish crystal-studded imitation earrings, perfect for adding a sparkle to your look without the heavy price tag.",
+      "image": "/images/crystal-studded-earrings.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Imitation Bracelet Set",
+      "category": "Imitation Jewellery",
+      "description": "A set of imitation bracelets with stylish designs, perfect for adding glamour to your wrist without breaking the bank.",
+      "image": "/images/imitation-bracelet-set.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Cotton Bed Sheet Set",
+      "category": "Cotton",
+      "description": "Soft and breathable cotton bed sheet set, offering comfort and durability for a restful night's sleep.",
+      "image": "/images/cotton-bed-sheet-set.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Cotton Towels",
+      "category": "Cotton",
+      "description": "High-quality cotton towels, absorbent and gentle on the skin, perfect for the bathroom or beach.",
+      "image": "/images/cotton-towels.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Cotton Fabric",
+      "category": "Cotton",
+      "description": "Premium cotton fabric, ideal for making dresses, shirts, and home furnishings, soft to the touch and breathable.",
+      "image": "/images/cotton-fabric.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Organic Cotton Clothes",
+      "category": "Cotton",
+      "description": "Eco-friendly and organic cotton clothing, gentle on the skin and the environment, available in various styles.",
+      "image": "/images/organic-cotton-clothes.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Cotton Quilt",
+      "category": "Cotton",
+      "description": "Soft and cozy cotton quilt, perfect for providing warmth and comfort in colder months.",
+      "image": "/images/cotton-quilt.jpg"
+    }
+  ]
+  
