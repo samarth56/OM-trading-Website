@@ -4,6 +4,48 @@ const menuBtn = document.getElementById('menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
 const mobUl = document.querySelector(".mobUl")
 
+
+
+
+
+
+
+// window.onload = function () {
+//   let progress = 0;
+//   const progressBar = document.getElementById('progress-bar');
+//   const emoji = document.getElementById('emoji');
+//   const progressText = document.getElementById('progress-text');
+//   const content = document.getElementById('content');
+//   const preloader = document.getElementById('preloader');
+
+//   // Initially hide the content and show the preloader
+//   content.classList.add('hidden');
+//   content.classList.remove('opacity-100'); // Ensure content is hidden initially
+
+//   // Simulate progress increment
+//   const interval = setInterval(function () {
+//       progress += 2; // Increase progress by 2% every interval
+//       progressBar.style.width = `${progress}%`; // Update progress bar width
+//       emoji.style.left = `calc(${progress}% - 1rem)`; // Move the emoji along the bar
+//       progressText.textContent = `Loading: ${progress}%`; // Update loading text
+
+//       // When the progress reaches 100%, hide preloader and show content
+//       if (progress >= 90) {
+//           clearInterval(interval);
+
+//           // After progress reaches 100%, hide preloader and show content
+//           preloader.style.display = 'none'; // Hide the preloader
+//           content.classList.remove('hidden'); // Make the content visible
+//           content.classList.add('opacity-100'); // Fade in the content
+//       }
+//   }, 40); // Update progress every 50ms
+// };
+
+
+
+
+
+
     menuBtn.addEventListener('click', () => {
         mobileMenu.classList.toggle('hidden'); // Show/Hide mobile menu
     });
@@ -218,7 +260,13 @@ const swiper = new Swiper('.swiper', {
     },
   });
   
-  
+
+
+
+
+
+
+
 
 
 

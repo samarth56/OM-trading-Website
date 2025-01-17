@@ -27,7 +27,7 @@ gsap.from("#about-para", {
     x: -20,
     opacity: 0,
     duration: 1,
-    delay: 1,
+    delay: .7,
     scrollTrigger: {
         trigger: "#about-section",
         start: "top 90%",
@@ -41,7 +41,7 @@ gsap.from("#about-img", {
     x: 20,
     opacity: 0,
     duration: 1,
-    delay: 1,
+    delay: .7,
     scrollTrigger: {
         trigger: "#about-img",
         start: "top 80%",
@@ -82,7 +82,7 @@ gsap.from("#product-section #product-heading", {
 })
 
 gsap.from("#owner #owner-container", {
-    scale:0,
+    scale:.5,
     opacity: 0,
     duration: 1,
     delay: .3,
@@ -99,7 +99,7 @@ gsap.from("#contact-section #contact-heading", {
     y: -50,
     opacity: 0,
     duration: 1,
-    delay: 1,
+    delay: .7,
     scrollTrigger: {
         trigger: "#contact-section #contact-heading",
         start: "top 80%",
@@ -113,7 +113,7 @@ gsap.from("#contact-section-img", {
     x: -20,
     opacity: 0,
     duration: 1,
-    delay: 1,
+    delay: .7,
     scrollTrigger: {
         trigger: "#contact-section-img",
         start: "top 90%",
@@ -127,7 +127,7 @@ gsap.from("#contactForm", {
     x: 20,
     opacity: 0,
     duration: 1,
-    delay: 1,
+    delay: .7,
     scrollTrigger: {
         trigger: "#contactForm",
         start: "top 80%",

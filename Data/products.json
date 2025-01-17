@@ -6,40 +6,13 @@
       "description": "Cornmeal flour made from finely ground corn, ideal for making cornbread, polenta, or as a thickening agent for sauces.",
       "image": "/images/p1.jpg"
     },
-    {
-      "id": 2,
-      "name": "Coarse Cornmeal",
-      "category": "Corn Meal",
-      "description": "Coarse cornmeal with a gritty texture, commonly used in making cornbread, corn muffins, and as a crust for frying.",
-      "image": "/images/p2.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Yellow Cornmeal",
-      "category": "Corn Meal",
-      "description": "Bright yellow cornmeal, perfect for making traditional Indian and American cornbread, as well as for batters and coatings.",
-      "image": "/images/p3.jpg"
-    },
+    
     {
       "id": 4,
       "name": "Sweet Corn",
-      "category": "Corn",
+      "category": "Corn Meal",
       "description": "Sweet corn, harvested at peak ripeness, perfect for salads, soups, and snacks. It can be consumed fresh or preserved.",
       "image": "/images/p4.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Frozen Corn",
-      "category": "Corn",
-      "description": "Frozen corn kernels, easy to store and use in dishes like curries, soups, or just as a side dish.",
-      "image": "/images/p5.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Popcorn",
-      "category": "Corn",
-      "description": "Popcorn kernels that pop into fluffy, crunchy popcorn. A popular snack and can be flavored with different seasonings.",
-      "image": "/images/p6.jpg"
     },
     {
       "id": 7,
@@ -63,25 +36,18 @@
       "image": "/images/p9.jpg"
     },
     {
-      "id": 10,
-      "name": "Sambar Rice",
-      "category": "Rice",
-      "description": "Specially formulated rice for making sambar rice, often mixed with lentils and spices for a delicious, hearty dish.",
-      "image": "/images/p10pg"
-    },
-    {
       "id": 11,
       "name": "Toor Dal",
       "category": "Pulses",
       "description": "Toor Dal, also known as pigeon peas, commonly used in Indian curries and dals, rich in protein and essential nutrients.",
-      "image": "/images/p11.jpg"
+      "image": "/images/toor_dal.jpg"
     },
     {
       "id": 12,
       "name": "Chana Dal",
       "category": "Pulses",
       "description": "Chana dal, split chickpeas, are widely used in Indian cooking for making dals, soups, and savory snacks.",
-      "image": "/images/p12.jpg"
+      "image": "/images/p11.jpg"
     },
     {
       "id": 13,
@@ -131,13 +97,76 @@
       "category": "Cereal Grains",
       "description": "Millets are small, nutritious grains that are gluten-free and can be used in porridge, baked goods, or as a rice substitute.",
       "image": "/images/p19.jpg"
+    }
+    ,{
+      "id": 33,
+      "name": "Black Pepper",
+      "category": "Spices",
+      "description": "Black pepper, known as the 'king of spices,' is used to add heat and flavor to a variety of dishes.",
+      "image": "/images/black-pepper.jpg"
     },
     {
-      "id": 20,
-      "name": "Rice Flour",
-      "category": "Cereal Grains",
-      "description": "Rice flour, made from finely ground rice, is ideal for gluten-free baking, thickening soups, or making batter for frying.",
-      "image": "/images/p20.jpg"
+      "id": 34,
+      "name": "Star Anise",
+      "category": "Spices",
+      "description": "Star anise, a fragrant spice with a licorice flavor, commonly used in Indian and Chinese cooking.",
+      "image": "/images/star.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Carom (Ajwain)",
+      "category": "Spices",
+      "description": "Ajwain seeds, known for their sharp, bitter flavor, often used in Indian cooking for flavoring parathas and curries.",
+      "image": "/images/carom.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Fennel (Saunf)",
+      "category": "Spices",
+      "description": "Fennel seeds, known for their sweet and licorice-like flavor, commonly used in Indian sweets and savory dishes.",
+      "image": "/images/fennel.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Cinnamon (Dalchini)",
+      "category": "Spices",
+      "description": "Cinnamon, a fragrant spice that adds warmth and depth to both sweet and savory dishes.",
+      "image": "/images/cinnamon.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Fenugreek (Methi)",
+      "category": "Spices",
+      "description": "Fenugreek seeds, used in Indian cooking to add a slightly bitter and nutty flavor to curries and dals.",
+      "image": "/images/methi.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Asafoetida (Hing)",
+      "category": "Spices",
+      "description": "Asafoetida, a pungent spice used in small quantities to enhance the flavor of dals, curries, and vegetable dishes.",
+      "image": "/images/hing.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Green Cardamom (Ilayachi)",
+      "category": "Spices",
+      "description": "Green cardamom, known for its sweet, aromatic flavor, used in Indian sweets, teas, and spice blends.",
+      "image": "/images/green-cardimom.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Cumin (Jira)",
+      "category": "Spices",
+      "description": "Cumin seeds, known for their warm and earthy flavor, essential in Indian and Middle Eastern cuisine.",
+      "image": "/images/cumin.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Turmeric (Haldi)",
+      "category": "Spices",
+      "description": "Turmeric, a bright yellow spice, known for its earthy flavor and health benefits, widely used in curries.",
+      "image": "/images/turmeric-powder.jpg"
     },
     {
       "id": 21,
@@ -158,7 +187,7 @@
       "name": "Coriander Powder",
       "category": "Spices",
       "description": "Coriander powder, made from ground coriander seeds, offers a mild, citrusy flavor, widely used in Indian curries.",
-      "image": "/images/coriander-powder.jpg"
+      "image": "/images/coriander_powder.jpg"
     },
     {
       "id": 24,
@@ -183,66 +212,83 @@
     },
     {
       "id": 27,
-      "name": "Imitation Gold Necklace",
+      "name": "Dimond Jewellery",
       "category": "Imitation Jewellery",
-      "description": "Elegant imitation gold necklace, designed to resemble traditional gold jewelry but crafted from affordable materials.",
-      "image": "/images/imitation-gold-necklace.jpg"
-    },
-    {
+      "description": "Elegant diamond-like imitation jewellery, crafted to resemble authentic diamond pieces with intricate detailing.",
+      "image": "/images/dimond-jewellery.jpg"
+  },
+  {
       "id": 28,
-      "name": "Silver-Plated Imitation Ring",
+      "name": "Antique Jewellery",
       "category": "Imitation Jewellery",
-      "description": "Beautiful silver-plated imitation ring, designed with intricate patterns, suitable for all occasions.",
-      "image": "/images/silver-plated-imitation-ring.jpg"
-    },
-    {
+      "description": "Beautiful antique-style imitation jewellery, inspired by vintage designs with a timeless appeal.",
+      "image": "/images/antique-jewellery.jpg"
+  },
+  {
       "id": 29,
-      "name": "Crystal-Studded Earrings",
+      "name": "Polki Jewellery",
       "category": "Imitation Jewellery",
-      "description": "Stylish crystal-studded imitation earrings, perfect for adding a sparkle to your look without the heavy price tag.",
-      "image": "/images/crystal-studded-earrings.jpg"
-    },
-    {
+      "description": "Polki-style imitation jewellery, showcasing traditional craftsmanship with a luxurious look.",
+      "image": "/images/polki-jewellery.jpg"
+  },
+  {
       "id": 30,
-      "name": "Imitation Bracelet Set",
+      "name": "Brass Jewellery",
       "category": "Imitation Jewellery",
-      "description": "A set of imitation bracelets with stylish designs, perfect for adding glamour to your wrist without breaking the bank.",
-      "image": "/images/imitation-bracelet-set.jpg"
-    },
-    {
+      "description": "Stylish brass imitation jewellery, perfect for making a bold fashion statement with durability.",
+      "image": "/images/brass-jewellery.jpg"
+  },
+  {
       "id": 31,
-      "name": "Cotton Bed Sheet Set",
-      "category": "Cotton",
-      "description": "Soft and breathable cotton bed sheet set, offering comfort and durability for a restful night's sleep.",
-      "image": "/images/cotton-bed-sheet-set.jpg"
-    },
-    {
+      "name": "Copper Jewellery",
+      "category": "Imitation Jewellery",
+      "description": "Chic copper imitation jewellery, offering a warm tone and versatile style for various occasions.",
+      "image": "/images/copper-jewellery.jpg"
+  },
+  {
       "id": 32,
-      "name": "Cotton Towels",
-      "category": "Cotton",
-      "description": "High-quality cotton towels, absorbent and gentle on the skin, perfect for the bathroom or beach.",
-      "image": "/images/cotton-towels.jpg"
-    },
-    {
-      "id": 33,
-      "name": "Cotton Fabric",
-      "category": "Cotton",
-      "description": "Premium cotton fabric, ideal for making dresses, shirts, and home furnishings, soft to the touch and breathable.",
-      "image": "/images/cotton-fabric.jpg"
-    },
-    {
-      "id": 34,
-      "name": "Organic Cotton Clothes",
-      "category": "Cotton",
-      "description": "Eco-friendly and organic cotton clothing, gentle on the skin and the environment, available in various styles.",
-      "image": "/images/organic-cotton-clothes.jpg"
-    },
-    {
-      "id": 35,
-      "name": "Cotton Quilt",
-      "category": "Cotton",
-      "description": "Soft and cozy cotton quilt, perfect for providing warmth and comfort in colder months.",
-      "image": "/images/cotton-quilt.jpg"
-    }
+      "name": "Matt Jewellery",
+      "category": "Imitation Jewellery",
+      "description": "Elegant matte finish imitation jewellery, providing a contemporary look with understated elegance.",
+      "image": "/images/matt-jewellery.jpg"
+  },
+  {
+    "id": 33,
+      "name": "Urid Papad",
+      "category": "Snacks",
+      "description": "A traditional and crispy snack made from urid dal, perfect as an accompaniment to meals or as a standalone treat.",
+      "image": "/images/urid-papad.jpg"
+  },
+  {
+    "id": 34,
+      "name": "Nagali Papad",
+      "category": "Snacks",
+      "description": "Nutritious and crunchy papad made from ragi (finger millet), a healthy addition to your meals.",
+      "image": "/images/nagali-papad.webp"
+  },
+  {
+    "id": 35,
+      "name": "Rice Papad",
+      "category": "Snacks",
+      "description": "Light and crispy papad crafted from rice flour, offering a delicate and delightful flavor.",
+      "image": "/images/rice-papad.jpg"
+  },
+  {
+    "id": 36,
+      "name": "Potato Papad",
+      "category": "Snacks",
+      "description": "Tasty and crunchy snack made from Potato and flour, enjoyed for its unique flavor.",
+      "image": "/images/Potato-papad.jpg"
+  },
+  {
+    "id": 37,
+      "name": "Kurdai",
+      "category": "Snacks",
+      "description": "Handmade traditional snack made from wheat flour, enjoyed for its unique texture and taste.",
+      "image": "/images/kurdai.jpg"
+  }
+  
+
+
   ]
   
